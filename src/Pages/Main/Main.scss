@@ -1,0 +1,51 @@
+.inline_center{
+    display: flex;
+}
+.left_side{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;       
+    position: relative;
+}
+.right_side{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.img_food{
+    width: 200px;
+    height: 200px;
+}
+.img_food img{
+    width: 100%;
+    object-fit: cover;
+}
+.food{
+    width: 200px;
+    height: 300px;
+    margin: 30px 20px;
+    text-align: center;
+    position: relative;
+    p{
+        margin: 0;
+        padding: 7px 0;
+    }
+}
+.btn_info{
+    background: white;
+    border: 0;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.buy{
+    padding: 4px 12px;
+    background-color: orange;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
